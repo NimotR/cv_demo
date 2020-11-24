@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>CV Submission</h1>
+    <p>Do you want to work with us? Please fill in your details below</p>
+    <hr>
+    <form method="POST" action="demo.php" enctype="multipart/form-data">
+        <div class="label">
+            <div class="question">First Name</div>
+            <div class="input"><input type="text" name="fname" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Last Name</div>
+            <div class="input"><input type="text" name="lname" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Email Address</div>
+            <div class="input"><input type="email" name="email" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Password</div>
+            <div class="input"><input type="password" name="pass" required></div>
+        </div>
+        <div class="label">
+            <div class="question">Additional Information</div>
+            <div class="input"><textarea cols="30" rows="5" placeholder="Add other infomation here"></textarea></div>
+        </div>
+        <div class="label">
+            <div class="question">Upload Your CV here</div>
+            <div class="input"><input type="file" name="cv"></div>
+        </div>
+        <div class="label">
+            <div class="question">Upoad your image here</div>
+            <div class="input"><input type="file" name="photo"></div>
+        </div>
+        <div class="label">
+            <input type="submit" name="submit" value="submit" id="submit">
+        </div>
+    </form>
+</body>
+</html>

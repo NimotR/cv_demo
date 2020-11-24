@@ -1,0 +1,30 @@
+* {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 40%;
+    margin: auto;
+}
+
+
+.label {
+    display: block;
+    width: auto;
+    margin-top: 20px;
+}
+
+.question {
+    float: left;
+    width: 40%;
+}
+
+
+#submit {
+    width: 50px;
+    margin-left: 40%;
+}
+
+
